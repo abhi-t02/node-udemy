@@ -1,0 +1,15 @@
+openapi: "3.0.0"
+info:
+  title: Express API
+  description: REST API building using express.js
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000
+    description: Development server
+paths:
+  /api/url:
+    get:
+      summary: returns list of urls
+      responses:
+        "200":
+          description: A JSON data
